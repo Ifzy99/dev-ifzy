@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.1s;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+
+@layer base {
+  /* body {
+    @apply bg-light-mode text-black 
+  }
+
+  .dark body {
+    @apply bg-dark-mode text-white;
+  } */
+}
+
+.section-container {
+  @apply items-center justify-center mx-auto;
+}
