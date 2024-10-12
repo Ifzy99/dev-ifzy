@@ -1,11 +1,11 @@
-import { Test } from "@/Components/Test";
+import { Test } from "@/components/Test";
 
 
 
 export default function Home() {
   return (
     <>
-    <Test/>
+     <Test/>
     
     </>
   );
