@@ -17,15 +17,12 @@ html {
 }
 
 @layer base {
-  /* body {
+  body {
     @apply bg-light-mode text-black 
   }
 
   .dark body {
     @apply bg-dark-mode text-white;
-  } */
+  }
 }
 
-.section-container {
-  @apply items-center justify-center mx-auto;
-}
