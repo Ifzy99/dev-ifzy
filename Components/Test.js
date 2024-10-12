@@ -7,7 +7,7 @@ export const Test = () => {
      <Image src="/images/samantha.png" alt="sam image" width={300} height={200} />
 
      <div className="text-base items-center px-3 mx-6 font-serif">
-       Test this comp
+       Test this component for me
      </div>
     </div>
   )
